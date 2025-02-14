@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Study Registration Form</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email">
+
+            <p>What do you want to study?</p>
+            <div class="options">
+                <label><input type="radio" name="study" value="blockchain"> Blockchain Dev</label>
+                <label><input type="radio" name="study" value="uiux"> UI/UX Design</label>
+                <label><input type="radio" name="study" value="trading"> Trading</label>
+                <label><input type="radio" name="study" value="video"> Video Editing</label>
+                <label><input type="radio" name="study" value="graphics"> Graphics Design</label>
+            </div>
+
+            <p>Who are your favorite tutors?</p>
+            <div class="options">
+                <label><input type="checkbox" name="tutor" value="mr-empato"> Mr Empato</label>
+                <label><input type="checkbox" name="tutor" value="brother-bernard"> Brother Bernard</label>
+                <label><input type="checkbox" name="tutor" value="tech-kelly"> Tech Kelly</label>
+                <label><input type="checkbox" name="tutor" value="timora"> Timora</label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
